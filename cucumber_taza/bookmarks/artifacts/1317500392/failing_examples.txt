@@ -1,0 +1,28 @@
+
+GoogleSearchPage
+  should search google for Delicious (FAILED - 1)
+  should search google for Facebook (FAILED - 2)
+
+Failures:
+
+  1) GoogleSearchPage should search google for Delicious
+     Failure/Error: Bookmarks.new do |b|
+     SyntaxError:
+       ./lib/sites/bookmarks/pages/google_search_page.rb:7: syntax error, unexpected '}', expecting ')'
+       ./lib/sites/bookmarks/pages/google_search_page.rb:9: syntax error, unexpected kEND, expecting '}'
+     # ./spec/isolation/bookmarks/google_search_page_spec.rb:6
+
+  2) GoogleSearchPage should search google for Facebook
+     Failure/Error: Bookmarks.new do |b|
+     SyntaxError:
+       ./lib/sites/bookmarks/pages/google_search_page.rb:7: syntax error, unexpected '}', expecting ')'
+       ./lib/sites/bookmarks/pages/google_search_page.rb:9: syntax error, unexpected kEND, expecting '}'
+     # ./spec/isolation/bookmarks/google_search_page_spec.rb:14
+
+Finished in 0.01746 seconds
+2 examples, 2 failures
+
+Failed examples:
+
+rspec ./spec/isolation/bookmarks/google_search_page_spec.rb:5 # GoogleSearchPage should search google for Delicious
+rspec ./spec/isolation/bookmarks/google_search_page_spec.rb:13 # GoogleSearchPage should search google for Facebook
